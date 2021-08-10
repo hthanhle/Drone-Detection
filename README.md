@@ -12,7 +12,8 @@ Watch the video demos:
 **Demo 2:** Counter-drone system
 [![Watch the video](/output/counter_drone.png)](https://www.youtube.com/watch?v=-RbXJrvv050)
 
-**Demo 2:** Drone detection (without payload classification)
+**Demo 3:** Drone detection (without payload classification)
+
 [![Watch the video](/output/drone.png)](https://www.youtube.com/watch?v=CVXlV2RlthY)
 
 
