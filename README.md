@@ -4,7 +4,15 @@ This project develops a drone detection system consisting of two stages:
 1. Drone object detector using YOLOv3 [[1]](https://pjreddie.com/media/files/papers/YOLOv3.pdf).
 2. Payload classification using VGG16 [[2]](https://www.robots.ox.ac.uk/~vgg/publications/2015/Simonyan15/simonyan15.pdf), and Inception-v3 [[3]](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Szegedy_Rethinking_the_Inception_CVPR_2016_paper.pdf).
 
+Watch the video demos:
+**Demo 1:** Drone detection with payload classification
 [![Watch the video](/output/test1.jpg)](https://www.youtube.com/watch?v=tX19s4a37RI)
+
+**Demo 2:** Counter-drone system
+[![Watch the video](/output/counter_drone.png)](https://www.youtube.com/watch?v=-RbXJrvv050)
+
+**Demo 2:** Drone detection (without pyload classification)
+[![Watch the video](/output/counter_drone.png)](https://www.youtube.com/watch?v=CVXlV2RlthY)
 
 
 ## Quick start
