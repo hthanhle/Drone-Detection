@@ -1,0 +1,12 @@
+input_shape = (832, 640)
+is_tiny_version = True
+pretrained = True
+out_model_path = './trained_yolo/'
+train_annotation_path = './drone_dataset.txt'
+anchors_path = './model_data/tiny_yolo_anchors.txt'
+classes_path = './model_data/drone_class.txt'
+model_path = './trained_yolo/trained_tiny_yolo_drone.h5'
+out_path = './out_frames/drone/1/'
+font_path = './font/FiraMono-Medium.otf'
+in_folder = './in_frames/drone/1'
+payload_path = './trained_payload/vgg16_epoch-050_val-acc-0.982609.h5'
