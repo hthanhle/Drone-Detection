@@ -7,22 +7,13 @@ This project develops a drone detection system consisting of two stages:
 
 ## Quick start
 ### Installation
-1. Install PyTorch=1.7.0 following [the official instructions](https://pytorch.org/)
-2. git clone https://github.com/hthanhle/Age-Prediction
+1. Install Tensorflow=1.13.1 and Keras=2.2.4 following [the official instructions](https://pytorch.org/)
+2. git clone https://github.com/hthanhle/Drone-Detection
 3. Install dependencies: `pip install -r requirements.txt`
 
 ### Test
 Please run the following commands: 
 
-1. Test on a single image: `python get_age.py --input test.jpg --output test_out.jpg --detector retinaface --estimator ssrnet`
-2. Test on camera: 
-
-**Example 1:** `python get_age_cam_coral.py`
-
-**Example 2:** `python get_age_cam_basic.py`
-
-4. Test on a single video: 
- 
-**Example 1:** `python get_age_video_ssrnet.py --input test.mp4 --output test_out.mp4`
-
-**Example 2:** `python get_age_video_coral.py --input test.mp4 --output test_out.mp4`
+1. Test the full pipeline: `python test_detector_with_payload.py`
+2. Test the drone detector: `python test_detector.py`
+3. Test the drone detector: `python test_payload.py`
