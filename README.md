@@ -1,7 +1,7 @@
 # Drone Detection
 ## Descriptions
 This project develops a drone detection system consisting of two stages: 
-1. Drone object detector using YOLOv3 [[1]](https://pjreddie.com/media/files/papers/YOLOv3.pdf).
+1. Drone object detection using YOLOv3 [[1]](https://pjreddie.com/media/files/papers/YOLOv3.pdf).
 2. Payload classification using VGG16 [[2]](https://www.robots.ox.ac.uk/~vgg/publications/2015/Simonyan15/simonyan15.pdf), and Inception-v3 [[3]](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Szegedy_Rethinking_the_Inception_CVPR_2016_paper.pdf).
 
 Watch the video demos:
